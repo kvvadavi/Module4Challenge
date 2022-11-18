@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./etc/style.css" />
+    <title>Quiz Time!</title>
+  </head>
+  <body>
+    <div class="text-center">
+      <h2 class="time" id="countdown"></h2>
+      <h1>Let's Play Technical Quiz!</h1>
+      <p>Try to answer the following code-related questions within the time limit.</p>
+      <p>Keep in mind that incorrect answers will penalize our score/time by ten seconds!</p>
+      <div class="text-center">
+      <button id="start"></button>
+      </div>
+
+      <br>
+      <h2><span id="questions"></span></h4>
+      <h2 id="highscore">View High Scores</h2>
+        <ul><span id="options"></span>
+          <li><button id="a" class="optButton"></button></li>
+          <li><button id="b" class="optButton"></button></li>
+          <li><button id="c" class="optButton"></button></li>
+          <li><button id="button" class="optButton">Next Question</button></li>
+        </ul>
+      <h4></h4>
+      <br>  
+      <p id="main"></p>
+
+
+  </div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
