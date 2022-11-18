@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="text-center">
-      <h2 class="time" id="countdown"></h2>
+
       <h1>Let's Play Technical Quiz!</h1>
       <p>Try to answer the following code-related questions within the time limit.</p>
       <p>Keep in mind that incorrect answers will penalize our score/time by ten seconds!</p>
@@ -19,15 +19,16 @@
 
       <br>
       <h2><span id="questions"></span></h4>
-      <h2 id="highscore">View High Scores</h2>
+      <button class="optButton" id="highscore">View High Scores</button>
         <ul><span id="options"></span>
-          <li><button id="a" class="optButton"></button></li>
-          <li><button id="b" class="optButton"></button></li>
-          <li><button id="c" class="optButton"></button></li>
-          <li><button id="button" class="optButton">Next Question</button></li>
+          <li><input type="radio" value="a" id="aa" class="radioBtn" name="radioButton"></input><button id="a" class="optButton"></button></li>
+          <li><input type="radio" value="b" id="bb" class="radioBtn" name="radioButton"></input><button id="b" class="optButton"></button></li>
+          <li><input type="radio" value="c" id="cc" class="radioBtn" name="radioButton"></input><button id="c" class="optButton"></button></li>
+
+          <li><button id="button">Next Question</button></li>
         </ul>
-      <h4></h4>
       <br>  
+      <h2 class="time" id="countdown"></h2>
       <p id="main"></p>
 
 
